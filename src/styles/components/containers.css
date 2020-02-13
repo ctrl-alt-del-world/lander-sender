@@ -1,0 +1,16 @@
+.outer {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.container--s {
+  max-width: 450px;
+}
+
+.container--xl {
+  max-width: 1400px;
+}
+
+.site__container {
+  max-width: 100%;
+}

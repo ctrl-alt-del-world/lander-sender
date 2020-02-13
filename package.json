@@ -1,0 +1,26 @@
+{
+  "name": "lander-sander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "fab watch src/pages static & spaghetti -w & cd static && live-server --port=3000 --no-browser",
+    "spaghetti": "spaghetti -w",
+    "build": "fab build src/pages static && spaghetti",
+    "deploy:production": "npm run build && netlify deploy --prod"
+  },
+  "devDependencies": {
+    "@friendsof/spaghetti": "^1.2.1",
+    "fab.js": "^1.0.0-3",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "ga-lite": "^2.0.1",
+    "klaviyo-subscribe": "^0.0.3",
+    "picoapp": "^2.0.2",
+    "react": "^16.8.3",
+    "react-facebook-pixel": "^0.1.3",
+    "react-helmet": "^5.2.1",
+    "svbstrate": "^4.1.0"
+  }
+}

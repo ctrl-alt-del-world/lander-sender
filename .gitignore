@@ -1,0 +1,11 @@
+static/*.css
+static/*.js
+static/*.map
+static/*.html
+static/*.DS_Store
+
+node_modules/*
+
+.DS_Store
+*.DS_Store
+

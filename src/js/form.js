@@ -1,6 +1,6 @@
 import { component } from 'picoapp'
 
-import subscribe from "klaviyo-subscribe"
+import { subscribe } from "klaviyo-subscribe"
 
 export default component(({node}) => {
   console.log('node?', node)

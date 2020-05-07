@@ -1,7 +1,4 @@
 import React from 'react'
-import cx from 'classnames'
-
-import subscribe from "klaviyo-subscribe"
 
 export const Newsletter = ({ placeholder }) => {
   return (
